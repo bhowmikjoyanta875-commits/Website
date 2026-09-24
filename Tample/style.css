@@ -243,7 +243,7 @@
             url("Iskcon_Prabartak_Sri_Krishna_Temple_Chittagong_Bangladesh.jpg") center/cover no-repeat;
     }
 
-    pt = c .hero-content {
+    .hero-content {
         max-width: 780px;
         animation: fadeUp 1.4s ease both;
     }
