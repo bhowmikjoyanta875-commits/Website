@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shri Ananta Dham Temple</title>
+
+  <!-- Google Fonts: a devotional display serif + a clean body sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Marcellus&family=Mukta:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <!-- ============================================================
+     NAVIGATION BAR — fixed, CSS-only mobile menu (checkbox hack)
+============================================================ -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="brand-mark">ॐ</div>
+        <div class="brand-text">ইসকন প্রবর্তক শ্রীকৃষ্ণ মন্দির
+          <span>বাংলাদেশের একটি হিন্দু মন্দির</span>
+        </div>
+      </div>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="hamburger-label" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#puja">Daily Puja</a></li>
+        <li><a href="#festivals">Festivals</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#donation">Donations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+     HOME / HERO
+============================================================ -->
+  <header id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-om">ॐ</div>
+      <h1>ইসকন প্রবর্তক শ্রীকৃষ্ণ মন্দির</h1>
+      <p> ভক্তি, শান্তি ও চিরায়ত ঐতিহ্যের এক পবিত্র তীর্থস্থান—আশীর্বাদপ্রার্থী প্রতিটি আত্মার জন্য উন্মুক্ত।</p>
+      <a href="#contact" class="btn-primary">মন্দির পরিদর্শন করুন</a>
+    </div>
+    <div class="hero-scroll">⌄</div>
+  </header>
+
+  <!-- ============================================================
+     ABOUT TEMPLE
+============================================================ -->
+  <section id="about">
+    <span class="section-eyebrow">আমাদের ঐতিহ্য</span>
+    <h2 class="section-title">মন্দির সম্পর্কে</h2>
+    <div class="section-divider"></div>
+
+    <div class="about-grid">
+      <img class="about-img" ইসকন প্রবর্তক শ্রীকৃষ্ণ মন্দির বাংলাদেশের চট্টগ্রামের একটি হিন্দু মন্দির। যা পাঁচলাইশ
+        থানায় অবস্থিত এবং আন্তর্জাতিক কৃষ্ণভাবনামৃত সংঘ পরিচালিত। বাংলাদেশে তৈরি সবচেয়ে ব্যয়বহুলএই মন্দিরের দৈর্ঘ্য
+        ১শ ফুট, প্রস্থ ৫০ ফুট, উচ্চতা ৬৫ ফুট এবং ৯টি গম্বুজ রয়েছে।[২] মন্দিরটি শ্রীচৈতন্য মহাপ্রভুর প্রচারিত ভক্তি
+        আন্দোলনের ধারাকে অনুসরণ করে হরে কৃষ্ণ মহামন্ত্র প্রচার, ভাগবত পাঠ, ধর্মীয় উৎসব উদযাপন এবং নৈতিক ও আধ্যাত্মিক
+        শিক্ষার মাধ্যমে সাধারণ মানুষের মধ্যে ধর্মীয় সচেতনতা বৃদ্ধিতে ভূমিকা পালন করে আসছে। src="probatak.jpeg"
+        alt="Temple sanctum with idol and diyas">
+
+      <div class="about-text">
+        <h3>অটল নিষ্ঠার এক ঐতিহ্য</h3>
+        <p>.</p>
+        <!-- 
+        <h3>The Presiding Deity</h3>
+        <p>The temple's sanctum enshrines the divine idol of Lord Vishnu, worshipped here in his eternal form as the
+          preserver — flanked by Goddess Lakshmi, embodying prosperity and grace.</p> -->
+
+        <div class="info-cards">
+          <div class="info-card">
+            <strong>মন্দিরের সময়সূচি</strong>
+            7:00 AM – 12:00 PM<br>4:00 PM – 9:00 PM
+          </div>
+          <div class="info-card">
+            <strong>মন্দিরের ঠিকানা</strong>
+            পাঁচলাইশ থানা,চট্টগ্রাম
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+     DAILY PUJA SCHEDULE
+============================================================ -->
+  <section id="puja" class="puja-section">
+    <span class="section-eyebrow">রীতিনীতি</span>
+    <h2 class="section-title">দৈনিক পূজার সময়সূচি</h2>
+    <div class="section-divider"></div>
+
+    <div class="puja-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>রীতিনীতি</th>
+            <th>সময়</th>
+            <th>বিবরণ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="ritual-name">মঙ্গল আরতি</td>
+            <td>5:00 AM</td>
+            <td>ভোরবেলা নিবেদিত প্রথম পবিত্র প্রদীপ।</td>
+          </tr>
+          <tr>
+            <td class="ritual-name">প্রাতঃপূজা</td>
+            <td>7:30 AM</td>
+            <td>মন্ত্রোচ্চারণ, পুষ্প ও পবিত্র জল দিয়ে অভিষেকসহ আনুষ্ঠানিক পূজা।</td>
+          </tr>
+          <tr>
+            <td class="ritual-name">ভোগ নিবেদন ও কীর্তন</td>
+            <td>12:00 PM</td>
+            <td>ভগবানের উদ্দেশ্যে প্রস্তুত ও নিবেদিত পবিত্র ভোগ।</td>
+          </tr>
+          <tr>
+            <td class="ritual-name">সন্ধ্যা আরতি</td>
+            <td>7:00 PM</td>
+            <td>কীর্তন সহকারে ভক্তিপূর্ণ প্রদীপ নিবেদন অনুষ্ঠান</td>
+          </tr>
+          <!-- <tr>
+            <td class="ritual-name">Special Puja</td>
+            <td>8:30 PM</td>
+            <td>Personal puja bookings for devotees on auspicious occasions.</td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============================================================
+     UPCOMING FESTIVALS
+============================================================ -->
+  <section id="festivals">
+    <span class="section-eyebrow">অনুষ্ঠান</span>
+    <h2 class="section-title">আসন্ন উৎসব</h2>
+    <div class="section-divider"></div>
+
+    <div class="festival-card">
+      <div class="festival-img">
+        <img src="krishna.jpg" alt="Krishna Janmashtami decorations">
+      </div>
+      <div class="festival-body">
+        <span class="festival-date">5 sep 2026</span>
+        <h3>জন্মাষ্টমী</h3>
+        <p>ভক্তিগানের মধ্য দিয়ে ভগবান শ্রীকৃষ্ণের জন্মলগ্ন উদযাপনের মধ্যরাত্রির আয়োজন।</p>
+      </div>
+    </div>
+    <div class="festival-grid">
+      <div class="festival-card">
+        <div class="festival-img">
+          <img src="jogoonath.jpg" alt="Diwali diyas and lights">
+        </div>
+        <div class="festival-body">
+          <span class="festival-date">2027</span>
+          <h3>রথযাত্রা</h3>
+          <p>, যা প্রতি বছর আষাঢ় মাসের শুক্লপক্ষের দ্বিতীয়া তিথিতে পালিত হয়। এই উৎসবে ভগবান জগন্নাথ, বলরাম (বলভদ্র) ও
+            দেবী
+            সুভদ্রার মূর্তি রথে বসিয়ে রাস্তায় শোভাযাত্রা সহকারে মাসির বাড়ি বা গুন্ডিচা মন্দিরে নিয়ে যাওয়া হয়।</p>
+        </div>
+      </div>
+
+      <!-- <div class="festival-card">
+        <div class="festival-img">
+          <img src="https://images.unsplash.com/photo-1583225214464-9296029427aa?q=80&w=800&auto=format&fit=crop"
+            alt="Colorful powders for Holi">
+        </div>
+        <div class="festival-body">
+          <span class="festival-date">04 Mar 2027</span>
+          <h3>হোলি উৎসব</h3>
+          <p>মন্দিরের প্রাঙ্গণে রঙ, সঙ্গীত ও সমষ্টিগত আনন্দের এক প্রাণবন্ত উদযাপন।</p>
+        </div>
+      </div> -->
+
+
+
+      <div class="festival-card">
+        <div class="festival-img">
+          <img src="holy.jpg" alt="Navratri festival decoration">
+        </div>
+        <div class="festival-body">
+          <span class="festival-date">2027</span>
+          <h3>দোলপূর্ণিমা</h3>
+          <p>দোলপূর্ণিমা হলো সনাতন ধর্মাবলম্বীদের একটি প্রধান ধর্মীয় ও রঙের উৎসব, যা ফাল্গুন মাসের পূর্ণিমা তিথিতে
+            শ্রীকৃষ্ণ ও রাধার
+            পুণ্য প্রেম এবং মন্দের ওপর ভালোর জয় উদযাপনের জন্য পালিত হয়।</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+     TEMPLE GALLERY
+============================================================ -->
+  <section id="gallery" class="gallery-section">
+    <span class="section-eyebrow">মুহূর্তগুলো</span>
+    <h2 class="section-title">মন্দিরের গ্যালারি</h2>
+    <div class="section-divider"></div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="1.jpg" alt="Temple architecture">
+        <div class="gallery-caption">মহাদেব মন্দির</div>
+      </div>
+      <div class="gallery-item">
+        <img src="2.jpg" alt="Evening aarti ceremony">
+        <div class="gallery-caption">রাধা কৃষ্ণের ছবি</div>
+      </div>
+      <div class="gallery-item">
+        <img src="3.jpg" alt="Temple entrance gate">
+        <div class="gallery-caption">জগন্নাথ,বলরাম, সুভদ্রা</div>
+      </div>
+      <div class="gallery-item">
+        <img src="4.jpg" alt="Diyas and flowers">
+        <div class="gallery-caption">জগন্নাথ,বলরাম, সুভদ্রা</div>
+      </div>
+      <div class="gallery-item">
+        <img src="5.jpg" alt="Devotees during festival">
+        <div class="gallery-caption">রাধা কৃষ্ণের ছবি</div>
+      </div>
+      <div class="gallery-item">
+        <img src="6.jpg" alt="Temple courtyard at dusk">
+        <div class="gallery-caption">রাধা কৃষ্ণের ছবি</div>
+      </div>
+      <div class="gallery-item">
+        <img src="7.jpg" alt="Devotees during festival">
+        <div class="gallery-caption">ভোগ নিবেদন</div>
+      </div>
+      <div class="gallery-item">
+        <img src="8.jpg" alt="Temple courtyard at dusk">
+        <div class="gallery-caption">চরণ</div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ============================================================
+     DONATION SECTION
+============================================================ -->
+  <section id="donation">
+    <span class="section-eyebrow">Seva</span>
+    <h2 class="section-title">মন্দিরকে সহায়তা করুন</h2>
+    <div class="section-divider"></div>
+
+    <div class="donation-wrap">
+      <div class="donation-text">
+        <h3>আপনার অবদান আমাদের সেবাকে টিকিয়ে রাখে।</h3>
+        <p>আপনার প্রতিটি অনুদান নিত্য পূজা-অর্চনা, উৎসব-অনুষ্ঠান ও জনসেবামূলক কার্যক্রম পরিচালনায় সহায়তা করে। আপনার এই
+          উদারতা আগামী
+          প্রজন্মের জন্য ভক্তির চিরন্তন শিখাকে প্রজ্বলিত রাখে।</p>
+
+        <div class="bank-details">
+          <div><span>Account Name</span><span>Prabattak iskon mondir Trust</span></div>
+          <div><span>Account Number</span><span>00000-4521</span></div>
+          <div><span>Bank</span><span>A B Bank</span></div>
+          <div><span>IFSC / SWIFT</span><span>DEVB0001234</span></div>
+        </div>
+      </div>
+
+      <div class="qr-box">
+        <div class="qr-placeholder">QR CODE<br>PLACEHOLDER</div>
+        <p>Scan to donate instantly via UPI / mobile banking</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+     CONTACT SECTION
+============================================================ -->
+  <section id="contact" class="contact-section">
+    <span class="section-eyebrow">আমাদের সাথে যোগাযোগ করুন</span>
+    <h2 class="section-title">যোগাযোগ ও অবস্থান</h2>
+    <div class="section-divider"></div>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+
+        <div class="contact-row">
+          <div class="contact-icon">⌂</div>
+          <div>
+            <strong>Address</strong>
+            <p>ইসকন প্রবর্তক শ্রীকৃষ্ণ মন্দির বাংলাদেশের চট্টগ্রামের একটি হিন্দু মন্দির। যা পাঁচলাইশ থানায় অবস্থিত</p>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <div class="contact-icon">☎</div>
+          <div>
+            <strong>Phone</strong>
+            <p>+880 1XXX-XXXXXX</p>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <div class="contact-icon">✉</div>
+          <div>
+            <strong>Email</strong>
+            <p>iskonprobottok12@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-wrap">
+        <iframe src="https://maps.app.goo.gl/NVBawoLeMXVyo9P66?g_st=iw" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" title="Temple location map">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+     FOOTER
+============================================================ -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>ॐ ইসকন প্রবর্তক শ্রীকৃষ্ণ মন্দির</h3>
+        <p>অফুরন্ত শান্তি, ভক্তি ও সম্প্রীতির এক স্থান—যা প্রতিটি ভক্তকে দু-হাত বাড়িয়ে ও উষ্ণ হৃদয়ে স্বাগত জানায়।.
+        </p>
+        <div class="social-icons" style="margin-top:20px;">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="YouTube">▶</a>
+          <a href="#" aria-label="Twitter">𝕏</a>
+        </div>
+      </div>
+
+      <div class="footer-quick">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#about">About Temple</a></li>
+          <li><a href="#puja">Daily Puja</a></li>
+          <li><a href="#festivals">Festivals</a></li>
+          <li><a href="#donation">Donations</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li>12 ইসকন প্রবর্তক শ্রীকৃষ্ণ মন্দির,পাঁচলাইশ</li>
+          <li>Chattogram, Bangladesh</li>
+          <li>+880 1XXX-XXXXXX</li>
+          <li>iskonprobottok12@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      &copy; 2026 ইসকন প্রবর্তক শ্রীকৃষ্ণ মন্দির. All rights reserved. Built with devotion.
+    </div>
+  </footer>
+
+</body>
+
+</html>
